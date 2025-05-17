@@ -14,7 +14,7 @@ def verify_local_robustness(network_filename, x_input, true_label, delta_val):
     """
     Verifies delta-local robustness for a given input x.
 
-    Checks if any other label can become the minimum score within the
+    Checks if any other label can become the maximum score within the
     delta-neighborhood around x_input.
 
     Returns:
